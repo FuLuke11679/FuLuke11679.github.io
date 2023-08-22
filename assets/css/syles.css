@@ -9,7 +9,7 @@
     --color-base2: #022a30;
     --color-brand: #e0f780;
     --color-brand2: #deff58;
-    --sidbar-width: 240px;
+    --sidbar-width: 280px;
     --font-base: "Bai Jamjuree";
 }
   
@@ -35,7 +35,7 @@ a:hover{
 }
 
 img{
-  width: 100%;
+  width: 90%;
 }
 .text-brand {
   color: var(--color-brand);
