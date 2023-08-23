@@ -162,3 +162,14 @@ img{
 .card-custom:hover .card-custom-image img{
   transform:scale(1.1);
 }
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
