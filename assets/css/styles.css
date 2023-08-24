@@ -46,6 +46,10 @@ img{
   background-color: var(--color-base);
 }
 
+.bg-white {
+  background-color: var(white);
+}
+
 .full-height{
   min-height: 100vh;
   height: 100%;
@@ -172,4 +176,39 @@ img{
 img {
   width: 100%;
   height: auto;
+}
+
+/* CONTACT */
+#contact .form-control {
+  background-color: var(--color-base);
+  border-color: var(--color-base);
+  color: var(--color-body);
+}
+
+#contact .form-control:focus {
+  border-color: var(--color-brand);
+  box-shadow: none;
+}
+
+#contact .form-control::placeholder {
+  color: var(--color-body);
+}
+
+#contact input.form-control {
+  height: 44px;
+}
+/* SOCIAL ICONS */
+.social-icons{
+
+}
+
+.social-icons a{
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-base);
+  border-radius: 100px;
+  font-size: 24px;
 }
